@@ -14,3 +14,5 @@ const animalB = {
 };
 
 const getSpeciesOfAnimal = (animal) => animal.species;
+
+const isAnimalExtinct = (animal) => animal.yearOfExtinction != null;
