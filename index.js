@@ -18,3 +18,6 @@ const animalB = {
 const getSpeciesOfAnimal = (animal) => animal.species;
 
 const isAnimalExtinct = (animal) => animal.yearOfExtinction != null;
+
+const explainAnimal = (animal) =>
+  `El animal ${animal.name} es un ${animal.species} de ${animal.age} años de edad y pesa ${animal.weigth} kg.`;
